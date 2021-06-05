@@ -21,7 +21,7 @@
           "srid": "3857",
           "geom": "geom",
           "qID": "ogc_fid",
-          "display": false,
+          "display": true,
           "edit": {},
           "infoj": []
         },
