@@ -1,0 +1,97 @@
+{
+  "locales": {
+    "BRASIL": {
+      "showScaleBar": true,
+      "view": {
+        "lat": -13.435350311255377,
+        "lng": -54.394041148316845,
+        "z": 4.906666666666667
+      },
+      "layers": {
+        "Base": {
+          "format": "mbtiles",
+          "mbStyle": "mapbox://styles/wagnermattei/ckm0q57nv1xev18p5lbss5a0o",
+          "accessToken": "pk.eyJ1Ijoid2FnbmVybWF0dGVpIiwiYSI6ImNrbTBxMjhmcDFpbW4ybmt2cGJuMG1tbnAifQ.UQfgK0lgMf9wxmH-wLj88w",
+          "display": true
+        },
+        "UF": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "uf",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        },
+        "Meso": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "meso",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        },
+        "Micro": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "micro",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        },
+        "Mun": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "mun",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        },
+        "Clima": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "clima",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        },
+        "EspeciesAmeacadasFauna": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "especies_ameacadas_fauna",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        },
+        "Biomas": {
+          "format": "mvt",
+          "dbs": "XYZ",
+          "table": "biomas",
+          "srid": "3857",
+          "geom": "geom",
+          "qID": "ogc_fid",
+          "display": false,
+          "edit": {},
+          "infoj": []
+        }
+      }
+    }
+  }
+}
