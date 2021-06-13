@@ -3,8 +3,8 @@
     "BRASIL": {
       "showScaleBar": true,
       "view": {
-        "lat": -13.435350311255377,
-        "lng": -54.394041148316845,
+        "lat": -13.929405701574012,
+        "lng": -64.20511891729787,
         "z": 4.906666666666667
       },
       "layers": {
@@ -21,11 +21,11 @@
           "srid": "3857",
           "geom": "geom",
           "qID": "ogc_fid",
-          "display": true,
+          "display": false,
           "edit": {},
           "infoj": []
         },
-        "Meso": {
+        "MESO": {
           "format": "mvt",
           "dbs": "XYZ",
           "table": "meso",
@@ -36,7 +36,7 @@
           "edit": {},
           "infoj": []
         },
-        "Micro": {
+        "MICRO": {
           "format": "mvt",
           "dbs": "XYZ",
           "table": "micro",
@@ -47,7 +47,7 @@
           "edit": {},
           "infoj": []
         },
-        "Mun": {
+        "MUN": {
           "format": "mvt",
           "dbs": "XYZ",
           "table": "mun",
@@ -58,7 +58,7 @@
           "edit": {},
           "infoj": []
         },
-        "Clima": {
+        "CLIMA": {
           "format": "mvt",
           "dbs": "XYZ",
           "table": "clima",
@@ -69,7 +69,7 @@
           "edit": {},
           "infoj": []
         },
-        "EspeciesAmeacadasFauna": {
+        "ESPECIES_AMEACADAS_FAUNA": {
           "format": "mvt",
           "dbs": "XYZ",
           "table": "especies_ameacadas_fauna",
@@ -80,7 +80,7 @@
           "edit": {},
           "infoj": []
         },
-        "Biomas": {
+        "BIOMAS": {
           "format": "mvt",
           "dbs": "XYZ",
           "table": "biomas",
